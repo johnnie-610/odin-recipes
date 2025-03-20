@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3e3e3e;
+    line-height: 1.6;
+    background-color: #faf3e0;
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* Header Section */
+header {
+    background-color: #8a4f7d;
+    color: #f9eae1;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#author {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: #f7ccc5;
+}
+
+.heart {
+    color: #ff6b6b;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    background-color: #fff4e6;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ingredients Section */
+.ingredients {
+    background-color: #fbe7c6;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+    max-width: 800px;
+}
+
+.ingredients h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #8a4f7d;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredients ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.ingredients ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #8a4f7d;
+    font-weight: bold;
+}
+
+/* Directions Section */
+.directions {
+    background-color: #e8e4c9;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+    max-width: 800px;
+}
+
+.directions h2 {
+    font-size: 2.5rem;
+    color: #8a4f7d;
+    margin-bottom: 1rem;
+}
+
+.directions ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+}
+
+.directions li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.directions img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Section */
+.closing {
+    background-color: #f9eae1;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.closing p {
+    font-size: 1.2rem;
+    color: #6c5b7b;
+}
+
+/* Footer Copyright */
+footer {
+    background-color: #8a4f7d;
+    text-align: center;
+    color: #f9eae1;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
