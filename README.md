@@ -16,7 +16,7 @@ This project is part of [The Odin Project](https://www.theodinproject.com/) curr
 ## How to Use
 1. Clone the repository:
      ```bash
-     git clone https://github.com/your-username/odin-recipes.git
+     git clone https://github.com/johnnie-610/odin-recipes.git
      ```
 2. Open the `index.html` file in your browser to view the website.
 
