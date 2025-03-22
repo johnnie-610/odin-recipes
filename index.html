@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
-</head>
-<body>
-    <h1 align="center">Odin Recipes</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero delectus corporis consequuntur consectetur. Tempore ipsam nam impedit dolorum repellat totam voluptatem, ex, suscipit expedita eaque rerum amet in. Debitis, porro!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, numquam velit suscipit sunt architecto vitae facilis non pariatur quas, labore ipsam doloribus quidem consequuntur incidunt sit cupiditate minima excepturi rem!</p>
-</body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Odin Recipes</title>
+        <!-- Link to Google Fonts for a modern look -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="styles/index.css" />
+    </head>
+
+    <body>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-overlay">
+                <h1>Odin Recipes</h1>
+                <p class="tagline">Discover delicious recipes crafted with passion</p>
+            </div>
+        </header>
+
+        <!-- Featured Recipes Section -->
+        <main class="main-content">
+            <section class="recipes-section">
+                <h2>Featured Recipes</h2>
+                <div class="recipes-grid">
+                    <a href="recipes/beef.html" class="recipe-card">
+                        <img src="images/beef.webp" alt="Beef Stew" />
+                        <div class="card-content">
+                            <h3>Beef Stew</h3>
+                        </div>
+                    </a>
+                    <a href="recipes/pumpkin.html" class="recipe-card">
+                        <img src="images/pumpkin.webp" alt="Pumpkin Recipe" />
+                        <div class="card-content">
+                            <h3>Pumpkin Delight</h3>
+                        </div>
+                    </a>
+                    <a href="recipes/rice.html" class="recipe-card">
+                        <img src="images/rice.webp" alt="Rice Recipe" />
+                        <div class="card-content">
+                            <h3>Rice Special</h3>
+                        </div>
+                    </a>
+                    <a href="recipes/salmon.html" class="recipe-card">
+                        <img src="images/salmon.webp" alt="Salmon Dish" />
+                        <div class="card-content">
+                            <h3>Salmon Supreme</h3>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <p>&copy; 2025 Johnnie. All rights reserved.</p>
+        </footer>
+    </body>
+
 </html>
